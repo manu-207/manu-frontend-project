@@ -19,7 +19,7 @@ jobs:
           node-version: 14
 
       - name: Change working directory
-        run: cd my-nodejs-app  # Replace 'my-nodejs-app' with the actual directory name
+        run: cd manu-frontend-project  # Replace 'my-nodejs-app' with the actual directory name
 
       - name: Install Dependencies
         run: npm install
